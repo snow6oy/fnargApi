@@ -58,8 +58,7 @@ starting point for the dialogue.
 	
 Note that the response contains a queries template. The intention is that a client will
 use this when building a UI for searching. For an instant example of this try
-using the [Collection+JSON browser](http://collection-json-explorer.herokuapp.com/) 
-to call the API. 
+using a [Collection+JSON client](http://api.fnarg.net/doc/) to call the API. 
 
 Error handling is fairly minimal. The service will complain if the year is not
 an integer and the Accept header is (of course) required.
